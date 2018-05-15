@@ -105,8 +105,6 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         TextView textView2 = (TextView) findViewById(R.id.text_view2);
         String str2 = "Longtude:"+location.getLongitude();
         textView2.setText(str2);
-
-
     }
 
     @Override
